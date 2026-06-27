@@ -1,0 +1,712 @@
+[
+  {
+    "id": "prayer-streak",
+    "name": "Prayer Streak",
+    "type": "android",
+    "description": "Prayer streak tracking app, on Play Store and App Store",
+    "builder": "Munsif Raza Github Campus",
+    "city": null,
+    "icon": null,
+    "link": null
+  },
+  {
+    "id": "photo-enhancer",
+    "name": "Photo Enhancer",
+    "type": "android",
+    "description": "AI photo/image enhancer and editor",
+    "builder": "Basit Bhattii Mobile Apps",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.vivd.labs.photo.editor.image.enhancer"
+  },
+  {
+    "id": "headshots-generator",
+    "name": "Headshots Generator",
+    "type": "android",
+    "description": "AI headshots/photo generator",
+    "builder": "Basit Bhattii Mobile Apps",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.vivd.labs.photo.editor.image.generator"
+  },
+  {
+    "id": "lume-voice",
+    "name": "Lume Voice",
+    "type": "ai-tool",
+    "description": "AI voice-to-text transcription SaaS (Mac + Android)",
+    "builder": "Mudasir Hussain Hyderabad",
+    "city": null,
+    "icon": null,
+    "link": "https://lumevoice.com"
+  },
+  {
+    "id": "habit-mosaic",
+    "name": "Habit Mosaic",
+    "type": "ios",
+    "description": "Streaks and habits tracking app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://apps.apple.com/pk/app/habit-mosaic-streaks-habits/id6767997932"
+  },
+  {
+    "id": "rendara",
+    "name": "Rendara",
+    "type": "web",
+    "description": "AI interior-design SaaS: upload a room photo to generate a renovated room, supports floor plans",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://rendara-frontend.vercel.app/"
+  },
+  {
+    "id": "hostelbook",
+    "name": "HostelBook",
+    "type": "android",
+    "description": "Hostel booking/management mobile app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.hostelbook.mobile"
+  },
+  {
+    "id": "stamp-wallet",
+    "name": "Stamp Wallet",
+    "type": "android",
+    "description": "Digital stamp/loyalty card wallet app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=space.alchemify.stampwallet"
+  },
+  {
+    "id": "begum-gees-ai-recipe-planner",
+    "name": "Begum Gees (AI Recipe Planner)",
+    "type": "android",
+    "description": "AI recipe planner app (Android pre-registration + iOS)",
+    "builder": "Jahan Alam Sindh Uni",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.itcians.begumgees"
+  },
+  {
+    "id": "antigravity-hackathon-ai-chat-app",
+    "name": "Antigravity hackathon AI chat app",
+    "type": "android",
+    "description": "App built for Google's Antigravity hackathon in 5 days, with an AI chat feature",
+    "builder": "Umar Waseem weekend 2",
+    "city": null,
+    "icon": null,
+    "link": null
+  },
+  {
+    "id": "intellitools-ai",
+    "name": "IntelliTools AI",
+    "type": "web",
+    "description": "Website offering various AI tools plus courses",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://www.intellitoolsai.app/"
+  },
+  {
+    "id": "keepr-wardrobe",
+    "name": "Keepr Wardrobe",
+    "type": "android",
+    "description": "Wardrobe management app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.keepr.wardrobe&hl=en-US"
+  },
+  {
+    "id": "thulla",
+    "name": "Thulla",
+    "type": "android",
+    "description": "Thulla card game Android app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.faizandev43.thullaandroid"
+  },
+  {
+    "id": "begum-gees-ios",
+    "name": "Begum Gees (iOS)",
+    "type": "ios",
+    "description": "AI recipe planner app on the App Store",
+    "builder": "Jahan Alam Sindh Uni",
+    "city": null,
+    "icon": null,
+    "link": "https://apps.apple.com/pk/app/begum-gees-ai-recipe-planner/id6768031333"
+  },
+  {
+    "id": "onlee-one-sentence-daily",
+    "name": "Onlee - One Sentence Daily",
+    "type": "ios",
+    "description": "One-sentence-a-day journaling app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://apps.apple.com/pk/app/onlee-one-sentence-daily/id6757363823"
+  },
+  {
+    "id": "jacked-girl-fitness",
+    "name": "Jacked Girl Fitness",
+    "type": "ios",
+    "description": "Fitness app for girls (reported $75k sales)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://apps.apple.com/pk/app/jacked-girl-fitness/id6468915983"
+  },
+  {
+    "id": "proof",
+    "name": "Proof",
+    "type": "android",
+    "description": "Geo-tagged, SHA-hashed proof-capture app for site inspectors and field teams",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.done.proofapp"
+  },
+  {
+    "id": "sadastocks",
+    "name": "SadaStocks",
+    "type": "android",
+    "description": "Stock/mutual-fund tracking app (tracks mutual fund top holdings)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.sadastocks"
+  },
+  {
+    "id": "beruni",
+    "name": "Beruni",
+    "type": "ai-tool",
+    "description": "AWS security/CSPM scanner mapping findings to CIS, FSBP, PCI, GDPR controls",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://beruni.app/"
+  },
+  {
+    "id": "muslim-fyx-tech",
+    "name": "Muslim (FYX Tech)",
+    "type": "android",
+    "description": "Religious/Muslim app (released 2023, 100M+ installs)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.fyxtech.muslim"
+  },
+  {
+    "id": "vm-player",
+    "name": "VM Player",
+    "type": "android",
+    "description": "Video/media player app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.zyro.vmplayer.player"
+  },
+  {
+    "id": "basitcreation-app",
+    "name": "BasitCreation app",
+    "type": "android",
+    "description": "Hand-built (non-vibe-coded) Android app seeking marketing help",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.basitcreation.app"
+  },
+  {
+    "id": "karachi-bus-map-app",
+    "name": "Karachi Bus Map App",
+    "type": "android",
+    "description": "Karachi local bus routes finder; search routes between two locations",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.kbrl.mapapp"
+  },
+  {
+    "id": "mere-yaaroun-poetry",
+    "name": "Mere Yaaroun (Poetry)",
+    "type": "android",
+    "description": "Poetry collection app of the builder's father; audio coming",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.poetryapp.mereyaaroun"
+  },
+  {
+    "id": "boardspy",
+    "name": "BoardSpy",
+    "type": "android",
+    "description": "App helping people in Karachi with traffic/boards (beat the traffic)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=site.boardspy.app"
+  },
+  {
+    "id": "balancio",
+    "name": "Balancio",
+    "type": "ios",
+    "description": "Budget/subscriptions tracker that logs expenses on Apple Pay tap",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://apps.apple.com/us/app/subscriptions-budget-balancio/id6754840078"
+  },
+  {
+    "id": "spendbook",
+    "name": "SpendBook",
+    "type": "android",
+    "description": "Monthly budget and expense tracker (Play Store + App Store)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.dk.spendbook.app"
+  },
+  {
+    "id": "mentorspace",
+    "name": "MentorSpace",
+    "type": "web",
+    "description": "Mentorship platform (launched on Product Hunt)",
+    "builder": "Talha Khan Karachi.AI",
+    "city": null,
+    "icon": null,
+    "link": "https://www.producthunt.com/products/mentorspace"
+  },
+  {
+    "id": "mnemonicly-vocabulary-builder",
+    "name": "Mnemonicly - Vocabulary Builder",
+    "type": "android",
+    "description": "Vocabulary-building app (App Store + Play Store)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://apps.apple.com/app/mnemonicly-vocabulary-builder/id6762747025"
+  },
+  {
+    "id": "ledgr-inventory",
+    "name": "LEDGR Inventory",
+    "type": "ai-tool",
+    "description": "n8n-automation inventory tool: talk to AI to insert/delete/check products via chat",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://muhammadtaha-dev.github.io/LEDGR-inventory/"
+  },
+  {
+    "id": "shieldcheck",
+    "name": "ShieldCheck",
+    "type": "web",
+    "description": "Security coverage checker, built on Hercules from a Claude-generated prompt",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://shieldcheck.onhercules.app/"
+  },
+  {
+    "id": "admob-revenue-calculator",
+    "name": "AdMob Revenue Calculator",
+    "type": "web",
+    "description": "Free tool to estimate AdMob earnings",
+    "builder": "Jahan Alam Sindh Uni",
+    "city": null,
+    "icon": null,
+    "link": "https://admobrevenuecalculator.itcians.com/"
+  },
+  {
+    "id": "notableai",
+    "name": "NotableAI",
+    "type": "web",
+    "description": "AI notes website",
+    "builder": "Mudasir Hussain Hyderabad",
+    "city": null,
+    "icon": null,
+    "link": "https://notableai.app/"
+  },
+  {
+    "id": "aaghosh",
+    "name": "Aaghosh",
+    "type": "android",
+    "description": "Motherhood companion app for women",
+    "builder": "Shanza Batool",
+    "city": null,
+    "icon": null,
+    "link": null
+  },
+  {
+    "id": "ronaldo-app",
+    "name": "Ronaldo app",
+    "type": "android",
+    "description": "First published Android app (hand-coded)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.devawais.ronaldo"
+  },
+  {
+    "id": "letterly",
+    "name": "Letterly",
+    "type": "ai-tool",
+    "description": "AI dictation / voice writing tool",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://letterly.app/"
+  },
+  {
+    "id": "pray-times-azan-reminder",
+    "name": "Pray Times / Azan Reminder",
+    "type": "android",
+    "description": "Prayer times and azan reminder app",
+    "builder": "Ahmed Tahir weekend 3",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.avirise.praytimes.azanreminder"
+  },
+  {
+    "id": "calories-tracker",
+    "name": "Calories Tracker",
+    "type": "android",
+    "description": "Calories tracking app (Play Store only)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.caleye.caloriescounter"
+  },
+  {
+    "id": "show-first-card-game",
+    "name": "Show First (Card Game)",
+    "type": "android",
+    "description": "Card-game app on Android and iOS",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.showfirst.app"
+  },
+  {
+    "id": "taskaro",
+    "name": "Taskaro",
+    "type": "web",
+    "description": "Task management app (web app; later V2 on Play Store)",
+    "builder": "Ali Question Mark",
+    "city": null,
+    "icon": null,
+    "link": "https://taskaro.web.app/"
+  },
+  {
+    "id": "data-insight",
+    "name": "Data Insight",
+    "type": "web",
+    "description": "SaaS that turns raw data into actionable insights for data scientists/analysts",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://data-insight-assistant.vercel.app/"
+  },
+  {
+    "id": "colormagic",
+    "name": "ColorMagic",
+    "type": "web",
+    "description": "Color palette / color tool web app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://colormagic.app/"
+  },
+  {
+    "id": "artnie",
+    "name": "Artnie",
+    "type": "android",
+    "description": "AI art/image generation app (Gemini, Nano Banana image gen)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.inkkaro.app"
+  },
+  {
+    "id": "prayer-times-qibla-adhan",
+    "name": "Prayer Times Qibla Adhan",
+    "type": "android",
+    "description": "Prayer times, qibla and adhan app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.prayertimes.qibla.adhan"
+  },
+  {
+    "id": "boardspy-ios",
+    "name": "BoardSpy (iOS)",
+    "type": "ios",
+    "description": "BoardSpy - beat the traffic, iOS version",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://apps.apple.com/us/app/boardspy-beat-the-traffic/id6777167408"
+  },
+  {
+    "id": "quran-for-all",
+    "name": "Quran for All",
+    "type": "android",
+    "description": "Quran app (Android + iOS)",
+    "builder": "Yahya Qureshi Cursor",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.theappcentral.quranforall"
+  },
+  {
+    "id": "mufasa-subscription-manager",
+    "name": "Mufasa: Subscription Manager",
+    "type": "android",
+    "description": "Subscription manager app (closed testing)",
+    "builder": "Best Friend 3",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=dev.briyani.subscriptions"
+  },
+  {
+    "id": "brainiq",
+    "name": "BrainIQ",
+    "type": "android",
+    "description": "Brain/IQ quiz app (closed testing)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.tsolutions.brainiq"
+  },
+  {
+    "id": "cashlytics-tracker",
+    "name": "Cashlytics Tracker",
+    "type": "android",
+    "description": "Cash/expense tracking app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.cashlytics_tracker"
+  },
+  {
+    "id": "urdu-sindhi-english-cnic-ocr-scanner",
+    "name": "Urdu/Sindhi/English CNIC OCR Scanner",
+    "type": "ai-tool",
+    "description": "On-device offline CNIC scanner OCR (Urdu, Sindhi, English) for Kotlin/Flutter integration",
+    "builder": "Jahan Alam Sindh Uni",
+    "city": null,
+    "icon": null,
+    "link": null
+  },
+  {
+    "id": "whispercar",
+    "name": "WhisperCar",
+    "type": "android",
+    "description": "AI car assistant: chat about your car, hands-free voice mode, maintenance reminders, recall alerts",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.whispercar.ai"
+  },
+  {
+    "id": "locovise",
+    "name": "Locovise",
+    "type": "web",
+    "description": "AI itinerary generator using Travelling Salesman Problem to optimize tourist routes by time and cost",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://www.locovise.com"
+  },
+  {
+    "id": "medkeep",
+    "name": "Medkeep",
+    "type": "android",
+    "description": "Health-record app: family profiles, medicine reminders, vitals, doctor visits, document data extraction + PDF export",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.medkeep.app"
+  },
+  {
+    "id": "arrow-drift",
+    "name": "Arrow Drift",
+    "type": "android",
+    "description": "Vibe-coded arrow game, live on Play Store",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.stacktree.arrowdrift"
+  },
+  {
+    "id": "lumex-ai",
+    "name": "Lumex AI",
+    "type": "android",
+    "description": "AI photo upscaler: makes blurry/low-res photos sharp up to 16x larger",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.azgard.labs.lumexai"
+  },
+  {
+    "id": "speakly",
+    "name": "Speakly",
+    "type": "android",
+    "description": "Language/speaking practice app (Arabic)",
+    "builder": "Awais Khan weekend 2",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.idraakailabs.speakly"
+  },
+  {
+    "id": "doomlift",
+    "name": "DoomLift",
+    "type": "android",
+    "description": "First shipped Android app by the builder",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.softotic.doomlift"
+  },
+  {
+    "id": "dropwise-share",
+    "name": "Dropwise Share",
+    "type": "android",
+    "description": "File/content sharing app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=app.dropwise.share"
+  },
+  {
+    "id": "ai-product-image-editor",
+    "name": "AI Product Image Editor",
+    "type": "extension",
+    "description": "Shopify app for editing product images",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://apps.shopify.com/ai-product-image-editor"
+  },
+  {
+    "id": "wird",
+    "name": "Wird",
+    "type": "android",
+    "description": "Islamic habit & dhikr app with pro tier",
+    "builder": "Abdul Wali weekend 3",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=io.wird.app"
+  },
+  {
+    "id": "all-video-downloader",
+    "name": "All Video Downloader",
+    "type": "android",
+    "description": "Video downloader app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.allviddown.downloader"
+  },
+  {
+    "id": "notivault",
+    "name": "NotiVault",
+    "type": "android",
+    "description": "Notification vault/manager app (builder's first Play Store app)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.samobilelabs.notivault"
+  },
+  {
+    "id": "taskaro-v2",
+    "name": "Taskaro V2",
+    "type": "android",
+    "description": "V2 of Taskaro, now live on Play Store",
+    "builder": "Ali Question Mark",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=org.app.taskaro"
+  },
+  {
+    "id": "ai-content-master",
+    "name": "AI Content Master",
+    "type": "android",
+    "description": "ChatGPT/Gemini wrapper app with extra features (Android + iOS), shipped ~6 months",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=kkcoders.ai.content.master"
+  },
+  {
+    "id": "founderbrief",
+    "name": "FounderBrief",
+    "type": "web",
+    "description": "Web app turning an idea into a PRD in any language (launched on Product Hunt)",
+    "builder": "Talha Khan Karachi.AI",
+    "city": null,
+    "icon": null,
+    "link": "https://founderbreif.vercel.app/"
+  },
+  {
+    "id": "leadfnf-analytics",
+    "name": "LeadFnF Analytics",
+    "type": "web",
+    "description": "Lightweight web analytics replacing GA4 + Hotjar: real-time pageviews, session replays, heatmaps, funnels, AI insights (3KB script)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://www.producthunt.com/products/leadfnf-analytics-session-replay-flow"
+  },
+  {
+    "id": "fuel-log-noorify-fuel-tracker",
+    "name": "Fuel Log (Noorify Fuel Tracker)",
+    "type": "android",
+    "description": "Fuel tracker and mileage app",
+    "builder": "Usman Khan weekend 2",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.noorify.fueltracker"
+  },
+  {
+    "id": "invoizyapp",
+    "name": "InvoizyApp",
+    "type": "web",
+    "description": "Online tool to create invoices, paid bills, receipts and quotes in-browser with PDF export, no signup",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": null
+  },
+  {
+    "id": "autoremind-ai",
+    "name": "autoremind.ai",
+    "type": "ai-tool",
+    "description": "Automates follow-ups so you stop chasing manually (launched on PeerPush)",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://autoremind.ai"
+  },
+  {
+    "id": "qirayah-quran-app",
+    "name": "Qirayah (Quran App)",
+    "type": "android",
+    "description": "Quran app, live on Google Play for testing",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://play.google.com/store/apps/details?id=com.quran.qirayah"
+  },
+  {
+    "id": "invoice-payroll-management-system",
+    "name": "Invoice & Payroll Management System",
+    "type": "web",
+    "description": "Invoice and payroll management web app",
+    "builder": "ShipKaro Member",
+    "city": null,
+    "icon": null,
+    "link": "https://invoice-and-payrol-l-management-sys.vercel.app/"
+  }
+]

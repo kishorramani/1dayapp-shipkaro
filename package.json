@@ -1,0 +1,16 @@
+{
+  "name": "1dayapp-shipkaro-shipped",
+  "version": "1.0.0",
+  "description": "Shipped Directory Page for ShipKaro Community",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "shipkaro",
+    "1dayapp"
+  ],
+  "author": "",
+  "license": "ISC"
+}
