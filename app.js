@@ -10,7 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const noResultsState = document.getElementById('no-results-state');
     const searchInput = document.getElementById('search-input');
     const searchClear = document.getElementById('search-clear');
-    const sortSelect = document.getElementById('sort-select');
+    const sortDropdown = document.getElementById('sort-dropdown');
+    const sortTrigger = document.getElementById('sort-trigger');
+    const sortTriggerLabel = document.getElementById('sort-trigger-label');
+    const sortOptionsList = document.getElementById('sort-options-list');
+    const customOptions = sortOptionsList.querySelectorAll('.custom-option');
         const resetFiltersBtn = document.getElementById('reset-filters-btn');
 
     // Header & Dashboard Stats Elements
@@ -306,17 +310,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const typeLabel = product.type.replace('-', ' ');
             const typeBadgeHTML = `<span class="type-badge ${product.type}">${typeLabel}</span>`;
             
-            // Count total shipped items by this builder
-            const builderCount = allProducts.filter(p => p.builder && p.builder === product.builder).length;
-            const shippedBadgeHTML = builderCount > 0 
-                ? `<span class="shipped-count-badge" title="This builder has shipped ${builderCount} products"><span class="material-symbols-outlined">rocket_launch</span>${builderCount} Shipped</span>`
-                : '';
-
-            // Badges wrapper (no city, showing builder products count instead)
+            // Badges wrapper (no city or count badges)
             const badgesHTML = `
                 <div class="card-badges">
                     ${typeBadgeHTML}
-                    ${shippedBadgeHTML}
                 </div>
             `;
 
@@ -426,10 +423,48 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Sort select handler
-    sortSelect.addEventListener('change', (e) => {
-        currentSort = e.target.value;
-        filterAndRenderProducts();
+    // Custom Dropdown Sort Handlers
+    sortTrigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = sortDropdown.classList.toggle('open');
+        sortTrigger.setAttribute('aria-expanded', isOpen);
+    });
+
+    customOptions.forEach(option => {
+        option.addEventListener('click', () => {
+            const val = option.getAttribute('data-value');
+            const text = option.querySelector('span').textContent;
+
+            currentSort = val;
+            sortTriggerLabel.textContent = text;
+
+            customOptions.forEach(opt => {
+                const isActive = opt === option;
+                opt.classList.toggle('active', isActive);
+                opt.setAttribute('aria-selected', isActive);
+            });
+
+            sortDropdown.classList.remove('open');
+            sortTrigger.setAttribute('aria-expanded', 'false');
+            filterAndRenderProducts();
+        });
+    });
+
+    // Close dropdown on click outside
+    document.addEventListener('click', (e) => {
+        if (!sortDropdown.contains(e.target)) {
+            sortDropdown.classList.remove('open');
+            sortTrigger.setAttribute('aria-expanded', 'false');
+        }
+    });
+
+    // Close dropdown on Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && sortDropdown.classList.contains('open')) {
+            sortDropdown.classList.remove('open');
+            sortTrigger.setAttribute('aria-expanded', 'false');
+            sortTrigger.focus();
+        }
     });
 
     // Category pills click handlers (Event Delegation)
@@ -456,7 +491,14 @@ document.addEventListener('DOMContentLoaded', () => {
         searchQuery = '';
         searchClear.style.display = 'none';
         currentSort = 'name-asc';
-        sortSelect.value = 'name-asc';
+        if (sortTriggerLabel) {
+            sortTriggerLabel.textContent = 'Name: A to Z';
+        }
+        customOptions.forEach(opt => {
+            const isDefault = opt.getAttribute('data-value') === 'name-asc';
+            opt.classList.toggle('active', isDefault);
+            opt.setAttribute('aria-selected', isDefault);
+        });
         
         // Reset category pill
         const pills = filterPillsContainer.querySelectorAll('.filter-pill');

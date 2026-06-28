@@ -74,13 +74,6 @@
                             <span class="stat-value" id="stats-total-count">0</span>
                         </div>
                     </div>
-                    <div class="stat-card" id="stat-builders">
-                        <div class="stat-icon-wrapper"><span class="material-symbols-outlined">groups</span></div>
-                        <div class="stat-info">
-                            <span class="stat-label">Active Builders</span>
-                            <span class="stat-value" id="stats-builders-count">0</span>
-                        </div>
-                    </div>
                     <div class="stat-card" id="stat-live">
                         <div class="stat-icon-wrapper"><span class="material-symbols-outlined">link</span></div>
                         <div class="stat-info">
@@ -93,6 +86,13 @@
                         <div class="stat-info">
                             <span class="stat-label">In Development</span>
                             <span class="stat-value" id="stats-dev-count">0</span>
+                        </div>
+                    </div>
+                    <div class="stat-card" id="stat-builders">
+                        <div class="stat-icon-wrapper"><span class="material-symbols-outlined">groups</span></div>
+                        <div class="stat-info">
+                            <span class="stat-label">Active Builders</span>
+                            <span class="stat-value" id="stats-builders-count">0</span>
                         </div>
                     </div>
                 </div>
@@ -111,15 +111,31 @@
                         <div class="search-shortcut"><kbd class="font-mono">/</kbd></div>
                     </div>
 
-                    <!-- Sorting Select -->
-                    <div class="sort-wrapper">
-                        <span class="material-symbols-outlined sort-icon">sort</span>
-                        <select id="sort-select" aria-label="Sort products">
-                            <option value="name-asc">Name: A to Z</option>
-                            <option value="name-desc">Name: Z to A</option>
-                            <option value="type">Product Type</option>
-                            <option value="link-priority">Live Links First</option>
-                        </select>
+                    <!-- Sorting Custom Dropdown -->
+                    <div class="custom-select-container" id="sort-dropdown">
+                        <button class="custom-select-trigger" id="sort-trigger" aria-haspopup="listbox" aria-expanded="false" aria-label="Sort products">
+                            <span class="material-symbols-outlined sort-icon">sort</span>
+                            <span id="sort-trigger-label">Name: A to Z</span>
+                            <span class="material-symbols-outlined chevron-icon">keyboard_arrow_down</span>
+                        </button>
+                        <ul class="custom-select-options" id="sort-options-list" role="listbox" aria-label="Sort options">
+                            <li class="custom-option active" data-value="name-asc" role="option" aria-selected="true">
+                                <span>Name: A to Z</span>
+                                <span class="material-symbols-outlined check-icon">check</span>
+                            </li>
+                            <li class="custom-option" data-value="name-desc" role="option" aria-selected="false">
+                                <span>Name: Z to A</span>
+                                <span class="material-symbols-outlined check-icon">check</span>
+                            </li>
+                            <li class="custom-option" data-value="type" role="option" aria-selected="false">
+                                <span>Product Type</span>
+                                <span class="material-symbols-outlined check-icon">check</span>
+                            </li>
+                            <li class="custom-option" data-value="link-priority" role="option" aria-selected="false">
+                                <span>Live Links First</span>
+                                <span class="material-symbols-outlined check-icon">check</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
