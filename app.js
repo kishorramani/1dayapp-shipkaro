@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const headerCount = document.getElementById('header-count');
     const statsTotalCount = document.getElementById('stats-total-count');
     const statsBuildersCount = document.getElementById('stats-builders-count');
-    const statsCitiesCount = document.getElementById('stats-cities-count');
+    const statsLiveCount = document.getElementById('stats-live-count');
     const statsCategoriesCount = document.getElementById('stats-categories-count');
 
     // Category Pill Counts Elements
@@ -137,8 +137,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Count unique builders
         const uniqueBuilders = [...new Set(allProducts.map(p => p.builder).filter(Boolean))].length;
         
-        // Count unique cities represented
-        const uniqueCities = [...new Set(allProducts.map(p => p.city).filter(Boolean))].length;
+        // Count products with live links
+        const liveProducts = allProducts.filter(p => p.link).length;
         
         // Count unique product types
         const uniqueCategories = [...new Set(allProducts.map(p => p.type).filter(Boolean))].length;
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Animate count up
         animateCount(statsTotalCount, total);
         animateCount(statsBuildersCount, uniqueBuilders);
-        animateCount(statsCitiesCount, uniqueCities);
+        animateCount(statsLiveCount, liveProducts);
         animateCount(statsCategoriesCount, uniqueCategories);
 
         headerCount.textContent = `${total} Products Shipped`;
