@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const statsTotalCount = document.getElementById('stats-total-count');
     const statsBuildersCount = document.getElementById('stats-builders-count');
     const statsLiveCount = document.getElementById('stats-live-count');
-    const statsCategoriesCount = document.getElementById('stats-categories-count');
+    const statsDevCount = document.getElementById('stats-dev-count');
 
     // Category Pill Counts Elements
     const filterPillsContainer = document.getElementById('filter-pills-container');
@@ -140,14 +140,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // Count products with live links
         const liveProducts = allProducts.filter(p => p.link).length;
         
-        // Count unique product types
-        const uniqueCategories = [...new Set(allProducts.map(p => p.type).filter(Boolean))].length;
+        // Count products in development (no link)
+        const devProducts = allProducts.filter(p => !p.link).length;
 
         // Animate count up
         animateCount(statsTotalCount, total);
         animateCount(statsBuildersCount, uniqueBuilders);
         animateCount(statsLiveCount, liveProducts);
-        animateCount(statsCategoriesCount, uniqueCategories);
+        animateCount(statsDevCount, devProducts);
 
         headerCount.textContent = `${total} Products Shipped`;
     }
