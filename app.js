@@ -195,7 +195,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     (product.name && product.name.toLowerCase().includes(query)) ||
                     (product.description && product.description.toLowerCase().includes(query)) ||
                     (product.builder && product.builder.toLowerCase().includes(query)) ||
-                    (product.city && product.city.toLowerCase().includes(query)) ||
                     (product.type && product.type.toLowerCase().includes(query))
                 );
             });
@@ -244,7 +243,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         (product.name && product.name.toLowerCase().includes(query)) ||
                         (product.description && product.description.toLowerCase().includes(query)) ||
                         (product.builder && product.builder.toLowerCase().includes(query)) ||
-                        (product.city && product.city.toLowerCase().includes(query)) ||
                         (product.type && product.type.toLowerCase().includes(query))
                     );
                     if (!matchesSearch) return false;
@@ -308,15 +306,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const typeLabel = product.type.replace('-', ' ');
             const typeBadgeHTML = `<span class="type-badge ${product.type}">${typeLabel}</span>`;
             
-            const cityBadgeHTML = product.city 
-                ? `<span class="city-badge" title="Shipped from ${product.city}"><span class="material-symbols-outlined">location_on</span>${product.city}</span>` 
+            // Count total shipped items by this builder
+            const builderCount = allProducts.filter(p => p.builder && p.builder === product.builder).length;
+            const shippedBadgeHTML = builderCount > 0 
+                ? `<span class="shipped-count-badge" title="This builder has shipped ${builderCount} products"><span class="material-symbols-outlined">rocket_launch</span>${builderCount} Shipped</span>`
                 : '';
 
-            // Location + badge wrapper
+            // Badges wrapper (no city, showing builder products count instead)
             const badgesHTML = `
                 <div class="card-badges">
                     ${typeBadgeHTML}
-                    ${cityBadgeHTML}
+                    ${shippedBadgeHTML}
                 </div>
             `;
 
@@ -391,6 +391,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Event Listeners
     // Search input handler (live search)
+    const searchWrapper = document.querySelector('.search-wrapper');
+    if (searchWrapper) {
+        searchWrapper.addEventListener('click', (e) => {
+            if (e.target !== searchInput && e.target !== searchClear) {
+                searchInput.focus();
+            }
+        });
+    }
+
     searchInput.addEventListener('input', (e) => {
         searchQuery = e.target.value;
         if (searchQuery.trim()) {
